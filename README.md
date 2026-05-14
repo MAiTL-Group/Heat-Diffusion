@@ -3,9 +3,11 @@
 This repository contains the official PyTorch implementation of:
 
 > **Physics-Informed DeepMRI: k-Space Interpolation Meets Heat Diffusion**
-> Zhuo-Xu Cui, Congcong Liu, Xiaohong Fan, Chentao Cao, Jing Cheng, Qingyong Zhu, Yuanyuan Liu, Sen Jia, Yihang Zhou, Haifeng Wang, Yanjie Zhu, Jianping Zhang, Qiegen Liu, Dong Liang.
-> *IEEE Transactions on Medical Imaging*, 2024.
-> [[IEEE Xplore]](https://ieeexplore.ieee.org/document/10683732/) &nbsp;&nbsp; [[arXiv:2308.15918]](https://arxiv.org/abs/2308.15918) &nbsp;&nbsp; [[Papers with Code]](https://paperswithcode.com/paper/physics-informed-deepmri-bridging-the-gap)
+> [Zhuo-Xu Cui](https://zhuoxucui.github.io/)<sup>\*</sup>, [Congcong Liu](https://sober235.github.io/)<sup>\*</sup>, Xiaohong Fan, Chentao Cao, Jing Cheng, Qingyong Zhu, Yuanyuan Liu, Sen Jia, Haifeng Wang, Yanjie Zhu, Yihang Zhou, Jianping Zhang, Qiegen Liu, Dong Liang.
+> *IEEE Transactions on Medical Imaging*, vol. 43, no. 10, pp. 3503–3520, 2024.
+> [[IEEE Xplore]](https://ieeexplore.ieee.org/document/10683732/) &nbsp;&nbsp; [[arXiv:2308.15918]](https://arxiv.org/abs/2308.15918) &nbsp;&nbsp; [[DOI:10.1109/TMI.2024.3462988]](https://doi.org/10.1109/TMI.2024.3462988) &nbsp;&nbsp; [[Papers with Code]](https://paperswithcode.com/paper/physics-informed-deepmri-bridging-the-gap)
+>
+> <sup>\*</sup> Equal contribution (co-first authors).
 
 This is the maintained release at the MAiTL-Group. The original first-author release is available at [`ZhuoxuCui/Heat-Diffusion`](https://github.com/ZhuoxuCui/Heat-Diffusion).
 
@@ -130,12 +132,18 @@ If you find this work useful, please cite:
   title   = {Physics-Informed {DeepMRI}: k-Space Interpolation Meets Heat Diffusion},
   author  = {Cui, Zhuo-Xu and Liu, Congcong and Fan, Xiaohong and Cao, Chentao and
              Cheng, Jing and Zhu, Qingyong and Liu, Yuanyuan and Jia, Sen and
-             Zhou, Yihang and Wang, Haifeng and Zhu, Yanjie and Zhang, Jianping and
+             Wang, Haifeng and Zhu, Yanjie and Zhou, Yihang and Zhang, Jianping and
              Liu, Qiegen and Liang, Dong},
   journal = {IEEE Transactions on Medical Imaging},
-  year    = {2024}
+  volume  = {43},
+  number  = {10},
+  pages   = {3503--3520},
+  year    = {2024},
+  doi     = {10.1109/TMI.2024.3462988}
 }
 ```
+
+*Authors marked with* <sup>\*</sup> *contributed equally as co-first authors.*
 
 Preprint:
 

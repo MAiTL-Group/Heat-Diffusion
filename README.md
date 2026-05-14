@@ -13,6 +13,12 @@ This is the maintained release at the MAiTL-Group. The original first-author rel
 
 ---
 
+## Illustration
+
+![Framework of attenuated k-space diffusion](assets/framework.png)
+
+*Fig. 2 from the paper.* **(a)** In the forward process, fully sampled k-space data undergoes heat diffusion towards low-frequency ACS data while noise conforming to the coil-sensitivity distribution is gradually incorporated; in the reverse process, high-frequency information is reconstructed from the noised low-frequency ACS data. **(b)** The k-space data is decomposed into a low-frequency ACS component multiplied by a Gaussian function, plus a Gaussian noise term modulated by the coil-sensitivity map.
+
 ## Overview
 
 We model the attenuation of high-frequency information in k-space as a forward **heat diffusion** process, and formulate accelerated MRI reconstruction as the corresponding **reverse heat diffusion**. To make the reverse process tractable, we modify the heat equation to be consistent with magnetic-resonance **parallel-imaging physics**, and solve it with a **score-based generative model**. Experiments on public datasets show improvements over both traditional and deep-learning k-space interpolation methods, especially in high-frequency regions.

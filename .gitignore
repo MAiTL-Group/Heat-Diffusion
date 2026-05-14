@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / dll files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Experiment artifacts
+exp/
+run/
+runs/
+weight/
+weights/
+logs/
+results/
+image_samples/
+tensorboard/
+
+# Model checkpoints and large data
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.mat
+*.npy
+*.npz
+
+# Logs and tmp
+*.log
+.DS_Store

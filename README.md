@@ -145,20 +145,6 @@ If you find this work useful, please cite:
 
 *Authors marked with* <sup>\*</sup> *contributed equally as co-first authors.*
 
-Preprint:
-
-```bibtex
-@article{cui2023physics,
-  title   = {Physics-Informed {DeepMRI}: Bridging the Gap from Heat Diffusion to k-Space Interpolation},
-  author  = {Cui, Zhuo-Xu and Liu, Congcong and Fan, Xiaohong and Cao, Chentao and
-             Cheng, Jing and Zhu, Qingyong and Liu, Yuanyuan and Jia, Sen and
-             Zhou, Yihang and Wang, Haifeng and Zhu, Yanjie and Zhang, Jianping and
-             Liu, Qiegen and Liang, Dong},
-  journal = {arXiv preprint arXiv:2308.15918},
-  year    = {2023}
-}
-```
-
 ## License
 
 Released under the [MIT License](LICENSE). Copyright (c) 2024 MAiTL-Group, SIAT, CAS.

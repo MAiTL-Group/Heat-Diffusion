@@ -17,7 +17,7 @@ This is the maintained release at the MAiTL-Group. The original first-author rel
 
 ![Framework of attenuated k-space diffusion](assets/framework.png)
 
-*Fig. 2 from the paper.* **(a)** In the forward process, fully sampled k-space data undergoes heat diffusion towards low-frequency ACS data while noise conforming to the coil-sensitivity distribution is gradually incorporated; in the reverse process, high-frequency information is reconstructed from the noised low-frequency ACS data. **(b)** The k-space data is decomposed into a low-frequency ACS component multiplied by a Gaussian function, plus a Gaussian noise term modulated by the coil-sensitivity map.
+*Overall framework diagram.* **(a)** In the forward process, fully sampled k-space data undergoes heat diffusion towards low-frequency ACS data while noise conforming to the coil-sensitivity distribution is gradually incorporated; in the reverse process, high-frequency information is reconstructed from the noised low-frequency ACS data. **(b)** The k-space data is decomposed into a low-frequency ACS component multiplied by a Gaussian function, plus a Gaussian noise term modulated by the coil-sensitivity map.
 
 ## Overview
 
